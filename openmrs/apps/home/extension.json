@@ -17,7 +17,7 @@
     "url": "../clinical/#/programs/patient/search",
     "icon": "icon-bahmni-program",
     "order": 2,
-    "requiredPrivilege": "app:clinical"
+    "requiredPrivilege": "DISABLED_TILL_REQD"
   },
   "clinical": {
     "id": "bahmni.clinical",
@@ -47,7 +47,7 @@
     "url": "../document-upload/?encounterType=RADIOLOGY&topLevelConcept=Radiology",
     "icon": "icon-bahmni-radiology",
     "order": 5,
-    "requiredPrivilege": "app:radiology-upload"
+    "requiredPrivilege": "DISABLED_TILL_REQD"
   },
   "patientDocumentUpload": {
     "id": "bahmni.patient.document.upload",
@@ -57,7 +57,7 @@
     "url": "../document-upload/?encounterType=Patient Document&topLevelConcept=Patient Document&defaultOption=Patient file",
     "icon": "icon-bahmni-documents",
     "order": 6,
-    "requiredPrivilege": "app:patient-documents"
+    "requiredPrivilege": "DISABLED_TILL_REQD"
   },
   "admin": {
     "id": "bahmni.admin",

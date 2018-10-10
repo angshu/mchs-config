@@ -17,22 +17,21 @@
             "activeVisitUuid"
         ],
         "config" : {
+            "showEnterID":false,
             "patientInformation": {
                 "additionalPatientInformation": {
                     "title": "Additional Patient Information",
                     "attributes": [
                         "distanceFromCenter",
-                        "isUrban",
                         "cluster",
                         "RationCard",
                         "familyIncome",
-                        "debt",
                         "cluster"
                     ]
                 },
                 "hidden": {
                     "attributes": [
-                        "primaryContact"
+                        
                     ]
                 },
                 "defaults":  {
@@ -103,7 +102,7 @@
             },
             "patientSearch": {
                 "address": {
-                    "label": "Rural Ward",
+                    "label": "Village",
                     "placeholder": "Enter ward",
                     "field": "address2"
                 },

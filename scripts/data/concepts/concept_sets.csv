@@ -1,0 +1,9 @@
+"uuid","name","description","class","shortname","child.1","child.2","child.3","child.4","child.5","child.6","reference-term-source","reference-term-code","reference-term-relationship"
+"c36af094-3f10-11e4-adec-0800271c1b75","Pulse Data",,"Concept Details","Pulse","Pulse","Pulse Abnormal","","","","",,,
+"c36ddb6d-3f10-11e4-adec-0800271c1b75","Systolic Data",,"Concept Details","Systolic","Systolic","Systolic Abnormal","","","","",,,
+"c378f635-3f10-11e4-adec-0800271c1b75","Diastolic Data",,"Concept Details","Diastolic","Diastolic","Diastolic Abnormal","","","","",,,
+"c36d22e6-3f10-11e4-adec-0800271c1b75","Blood Pressure",,"ConvSet","Blood Pressure","Systolic Data","Diastolic Data","Posture","","","",,,
+"c37afa71-3f10-11e4-adec-0800271c1b75","Temperature Data",,"Concept Details","Temperature","Temperature","Temperature Abnormal","","","","",,,
+"c37d3f27-3f10-11e4-adec-0800271c1b75","RR Data",,"Concept Details","RR","RR","RR Abnormal","","","","",,,
+"c37fc55f-3f10-11e4-adec-0800271c1b75","SPO2 Data",,"Concept Details","SPO2","SPO2","SPO2 Abnormal","","","","",,,
+"c36a7537-3f10-11e4-adec-0800271c1b75","Vitals",,"Misc","Vitals","Pulse Data","Blood Pressure","Temperature Data","RR Data","SPO2 Data","",,,
