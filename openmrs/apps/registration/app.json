@@ -41,7 +41,7 @@
             },
             "addressHierarchy": {
                 "showAddressFieldsTopDown": false,
-                "strictAutocompleteFromLevel": "stateProvince"
+                "strictAutocompleteFromLevel": "cityvillage"
             },
             "relationshipTypeMap": {
                 "Doctor":"provider",
