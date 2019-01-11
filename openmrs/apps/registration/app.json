@@ -109,7 +109,7 @@
             },
             "patientSearchResults": {
                 "address": {
-                    "fields" : ["cityVillage"]
+                    "fields" : ["cityVillage", "address3"]
                 },
                 "personAttributes": {
                     "fields": ["landHolding", "education"]
