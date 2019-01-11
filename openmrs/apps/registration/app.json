@@ -106,6 +106,14 @@
                     "placeholder": "Enter ward",
                     "field": "cityVillage"
                 }
+            },
+            "patientSearchResults": {
+                "address": {
+                    "fields" : ["cityVillage"]
+                },
+                "personAttributes": {
+                    "fields": ["landHolding", "education"]
+                }
             }
         }
 }
