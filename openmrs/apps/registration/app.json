@@ -104,7 +104,7 @@
                 "address": {
                     "label": "Village",
                     "placeholder": "Enter ward",
-                    "field": "cityvillage"
+                    "field": "address2"
                 }
             },
             "patientSearchResults": {
