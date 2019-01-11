@@ -104,12 +104,12 @@
                 "address": {
                     "label": "Village",
                     "placeholder": "Enter ward",
-                    "field": "address2"
+                    "field": "cityvillage"
                 }
             },
             "patientSearchResults": {
                 "address": {
-                    "fields" : ["cityvillage", "address1", "address2" , "address3"]
+                    "fields" : ["address1", "address2" , "address3"]
                 },
                 "personAttributes": {
                     "fields": ["landHolding", "education"]
