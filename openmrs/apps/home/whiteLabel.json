@@ -6,6 +6,8 @@
   },
   "loginPage": {
     "logo": "/bahmni/images/bahmniLogoFull.png",
+    "LOGIN_PAGE_HEADER_TEXT": "e-PunarChetana EMR LOGIN",
+    "LOGIN_PAGE_TITLE_TEXT": "e-PunarChetana",
     "showHeaderText": true,
     "showTitleText": true,
   },
