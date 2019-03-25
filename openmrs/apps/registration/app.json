@@ -103,16 +103,16 @@
             "patientSearch": {
                 "address": {
                     "label": "Village",
-                    "placeholder": "Enter ward",
-                    "field": "address2"
+                    "placeholder": "Enter Village",
+                    "field": "cityVillage"
                 }
             },
             "patientSearchResults": {
                 "address": {
-                    "fields" : ["address1", "address2" , "address3"]
+                    "fields" : ["address1", "address2" , "cityVillage"]
                 },
                 "personAttributes": {
-                    "fields": ["landHolding", "education"]
+                    "fields": ["education"]
                 }
             }
         }
