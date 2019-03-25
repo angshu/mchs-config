@@ -9,7 +9,7 @@
     "LOGIN_PAGE_HEADER_TEXT": "e-PunarChetana EMR LOGIN",
     "LOGIN_PAGE_TITLE_TEXT": "e-PunarChetana",
     "showHeaderText": true,
-    "showTitleText": true,
+    "showTitleText": true
   },
   "helpLink": {
     "url": "https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Home"
