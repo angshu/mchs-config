@@ -104,7 +104,7 @@
                 "address": {
                     "label": "Village",
                     "placeholder": "Enter Village",
-                    "field": "cityVillage"
+                    "field": "address2"
                 }
             },
             "patientSearchResults": {
