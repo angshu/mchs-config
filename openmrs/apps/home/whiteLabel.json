@@ -1,8 +1,8 @@
 {
   "homePage": {
-    "header_text": "<b>WELCOME TO<br />BAHMNI EMR & HOSPITAL SERVICE",
+    "header_text": "<b>WELCOME TO<br />e-PunarChetana EMR & HOSPITAL SERVICE",
     "logo": "/bahmni/images/bahmniLogoFull.png",
-    "title_text": " "
+    "title_text": "e-PunarChetana"
   },
   "loginPage": {
     "logo": "/bahmni/images/bahmniLogoFull.png",
