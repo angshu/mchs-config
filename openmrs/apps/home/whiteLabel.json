@@ -1,13 +1,15 @@
 {
   "homePage": {
-    "header_text": "<b>WELCOME TO<br />BAHMNI EMR & HOSPITAL SERVICE",
+    "header_text": "<b>WELCOME TO<br />e-PunarChetana EMR & HOSPITAL SERVICE",
     "logo": "/bahmni/images/bahmniLogoFull.png",
-    "title_text": " "
+    "title_text": "e-PunarChetana"
   },
   "loginPage": {
     "logo": "/bahmni/images/bahmniLogoFull.png",
+    "LOGIN_PAGE_HEADER_TEXT": "e-PunarChetana EMR LOGIN",
+    "LOGIN_PAGE_TITLE_TEXT": "e-PunarChetana",
     "showHeaderText": true,
-    "showTitleText": false
+    "showTitleText": true
   },
   "helpLink": {
     "url": "https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Home"

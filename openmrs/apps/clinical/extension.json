@@ -3,7 +3,7 @@
     "id": "bahmni.clinical.consultation.observations",
     "extensionPointId": "org.bahmni.clinical.consultation.board",
     "type": "link",
-    "label": "Observations",
+    "label": "Obs",
     "translationKey":"OBSERVATIONS_BOARD_LABEL_KEY",
     "url": "concept-set-group/observations",
     "default": true,
@@ -26,7 +26,7 @@
     "id": "bahmni.clinical.consultation.disposition",
     "extensionPointId": "org.bahmni.clinical.consultation.board",
     "type": "link",
-    "label": "Disposition",
+    "label": "ADT",
     "translationKey":"DISPOSITION_BOARD_LABEL_KEY",
     "url": "disposition",
     "icon": "fa-user-md",
@@ -37,7 +37,7 @@
     "id": "bahmni.clinical.consultation.summary",
     "extensionPointId": "org.bahmni.clinical.consultation.board",
     "type": "link",
-    "label": "Consultation",
+    "label": "Consult",
     "translationKey":"CONSULTATION_BOARD_LABEL_KEY",
     "url": "consultation",
     "icon": "fa-user-md",
@@ -65,6 +65,19 @@
     },
     "label": "Active",
     "order": 1,
+    "requiredPrivilege": "app:clinical"
+  },
+  "activePatientsByLocation": {
+    "id": "bahmni.clinical.patients.search.activePatientsByLocation",
+    "extensionPointId": "org.bahmni.patient.search",
+    "type": "config",
+    "extensionParams": {
+      "searchHandler": "emrapi.sqlSearch.activePatientsByLocation",
+      "translationKey": "MODULE_LABEL_ACTIVE_PATIENTS_BY_LOCATION",
+      "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+    },
+    "label": "Active",
+    "order": 4,
     "requiredPrivilege": "app:clinical"
   },
   "bahmniClinicalPatientsSearchAllPatients": {
@@ -151,7 +164,7 @@
     "id": "bahmni.clinical.billing.treatment",
     "extensionPointId": "org.bahmni.clinical.consultation.board",
     "type": "link",
-    "label": "Medications",
+    "label": "Meds",
     "translationKey":"MEDICATIONS_BOARD_LABEL_KEY",
     "extensionParams":{
       "tabConfigName": "allMedicationTabConfig"

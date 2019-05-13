@@ -73,7 +73,7 @@ def find_or_create_child_for(parent, code, name)
 end
 
 files_for_states = { "KA" => "2011_29_karnataka_location.csv", "TN" => "2011_33_tamil_nadu_location.csv", "AP" => "2011_28_andhra_pradesh_location.csv" }
-current_state = "AP"
+current_state = "TN"
 state_specific_input_file = Dir.pwd.concat("/data/address/").concat(files_for_states[current_state])
 state_specific_output_file = Dir.pwd.concat("/data/address_to_import/").concat(files_for_states[current_state]).chomp(".csv").concat("_out_coded.csv")
 
@@ -86,10 +86,14 @@ CSV.foreach state_specific_input_file, :headers => true do |row|
   district_name = row["DISTRICT NAME"]
   sub_district_code = row["MDDS Sub_DT"]
   sub_district_name = row["SUB-DISTRICT NAME"]
+  area_code = row["MDDS PLCN"]
+  area_name = row["Area Name"]
+  
 
   state       = find_or_create_state(state_code, state_name)
   district    = find_or_create_child_for(state, district_code, district_name)
   subdistrict    = find_or_create_child_for(district, sub_district_code, sub_district_name)
+  village    = find_or_create_child_for(subdistrict, area_code, area_name)
 end
 
 $address_heirarchies_file = File.open(state_specific_output_file, "w+")
