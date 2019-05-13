@@ -105,7 +105,7 @@
                     "label": "Village",
                     "placeholder": "Enter Village",
                     "field": "address2"
-                }
+              }
             },
             "patientSearchResults": {
                 "address": {
