@@ -106,14 +106,6 @@
                     "placeholder": "Enter Village",
                     "field": "address2"
               }
-            },
-            "patientSearchResults": {
-                "address": {
-                    "fields" : ["address1", "address2", "cityVillage"]
-                },
-                "personAttributes": {
-                    "fields": ["education"]
-                }
             }
-        }
+           }
 }
