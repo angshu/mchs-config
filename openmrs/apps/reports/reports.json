@@ -5,8 +5,8 @@
         "config": {
             "forDataAnalysis": true,
             "patientAttributes": [
-                "caste",
-                "class",
+                "Clinic",
+                "SerialNumber",
                 "education",
                 "occupation",
                 "primaryContact"
