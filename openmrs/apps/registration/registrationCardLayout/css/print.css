@@ -1,7 +1,7 @@
 @page {
   margin-left: 0.2cm;
   margin-right: 0.2cm;
-  margin-top: 0.2cm;
+  margin-top: 0.3cm;
   margin-bottom: 0.2cm;
 }
 
@@ -23,8 +23,8 @@ h1, h2, h3 {
 
 /* line 20, print.scss */
 .registrationCard-print-table {
-  width: 150mm;
-  height: 83mm;
+  width: 160mm;
+  height: 78mm;
   overflow: scroll;
   margin: 0 auto;
   table-layout: fixed;
