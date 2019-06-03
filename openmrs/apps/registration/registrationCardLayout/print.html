@@ -24,13 +24,11 @@
                             <li>
                                 {{ "REGISTRATION_SUNDAYS_HOLIDAY_TEXT_KEY" | translate }}
                             </li>
+                            <li>
+                                {{ "REGISTRATION_SMOKING_INJURIOUS_TEXT_KEY" | translate }}
+                            </li>    
                         </ul>
                         <div class="caution">
-                            <h3 class="print-table-header">Caution</h3>
-                            <p>
-                                {{ "REGISTRATION_SMOKING_INJURIOUS_TEXT_KEY" | translate }}
-                            </p>
-                        </div>
                     </td>
                 </tr>
             </table>
@@ -64,7 +62,7 @@
                 <tbody>
                 <tr>
                     <td class="registrationCard-details-name">
-                        <span class="hindi-text">Dated</span>
+                        <span class="hindi-text">Reg. Date</span>
                     </td>
                     <td class="registrationCard-details-seperator"> :  </td>
                     <td>{{patient.registrationDate | bahmniDate}} </td>
@@ -98,13 +96,6 @@
                     </td>
                     <td class="registrationCard-details-seperator"> :  </td>
                     <td>{{patient.gender}} </td>
-                </tr>
-                <tr>
-                    <td class="registrationCard-details-name">
-                        <span class="hindi-text">Address</span>
-                    </td>
-                    <td class="registrationCard-details-seperator"> :  </td>
-                    <td>{{patient.primaryRelative}} </td>
                 </tr>
                 <tr>
                     <td class="registrationCard-details-name">
