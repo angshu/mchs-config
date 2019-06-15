@@ -26,7 +26,7 @@
             ]
         }
     },
-    "testReport": {
+   /* "testReport": {
         "name": "Test Observation Report",
         "type": "observations",
         "config": {
@@ -118,7 +118,7 @@
             "applyDateRangeFor": "obsDate",
             "visitTypesToFilter": []
         }
-    },
+    },*/
     "chiefComplaintReport": {
         "name": "Chief Complaint Report",
         "type": "obsCount",
@@ -156,7 +156,7 @@
         "name": "Laboratory Services",
         "type": "TestCount"
     },
-    "genericLaboratoryServices": {
+   /* "genericLaboratoryServices": {
         "name": "Generic Laboratory Services",
         "type": "ElisGeneric",
         "config": {
@@ -297,7 +297,7 @@
                 "normal"
             ]
         }
-    },
+    },*/
     "IPDPatientsReport": {
         "name": "IPD Patients Report",
         "type": "ipdPatients",
@@ -317,7 +317,7 @@
             "filterBy": "Date of Discharge"
         }
     },
-    "nutritionProgramNutritionalStatusOfRegisteredChildren": {
+    /*"nutritionProgramNutritionalStatusOfRegisteredChildren": {
         "name": "Nutrition Program - Nutritional status of registered children",
         "type": "obsCount",
         "config": {
@@ -349,7 +349,7 @@
         "config": {
             "programName": "Malaria Program"
         }
-    },
+    },*/
     "OrderFulfillmentReport": {
         "name": "Order Fulfillment Report",
         "type": "OrderFulfillmentReport",
@@ -361,7 +361,7 @@
             ]
         }
     },
-    "visitReport": {
+    /*"visitReport": {
         "name": "Visit Report",
         "type": "visitReport",
         "config": {
@@ -407,12 +407,12 @@
             "enrolledProgram": "HIV Program",
             "showObsOnlyForProgramDuration": false
         }
-    },
+    },*/
     "drugOrderReport": {
         "name": "Drug Order report",
         "type": "DrugOrder"
     },
-    "SampleGenericProgramReport": {
+   /* "SampleGenericProgramReport": {
         "name": "Generic program sample report",
         "type": "programs",
         "config": {
@@ -460,7 +460,7 @@
                 "Patient Identifier"
             ]
         }
-    },
+    },*/
     "pivotReportOfVisits": {
         "name": "Aggregation report for visits",
         "type": "aggregation",
@@ -502,7 +502,7 @@
             ]
         }
     },
-    "pivotReportForPrograms": {
+   /* "pivotReportForPrograms": {
         "name": "HIV Program Pivot Report",
         "type": "aggregation",
         "config": {
@@ -657,4 +657,4 @@
       ]
     }
   }
-}
+}*/
