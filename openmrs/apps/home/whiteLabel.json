@@ -2,12 +2,12 @@
   "homePage": {
     "header_text": "<b>WELCOME TO<br />e-PunarChetana EMR & HOSPITAL SERVICE",
     "logo": "/bahmni/images/bahmniLogoFull.png",
-    "title_text": "e-PunarChetana"
+    "title_text": "ePunarChetana"
   },
   "loginPage": {
     "logo": "/bahmni/images/bahmniLogoFull.png",
-    "LOGIN_PAGE_HEADER_TEXT": "e-PunarChetana EMR LOGIN",
-    "LOGIN_PAGE_TITLE_TEXT": "e-PunarChetana",
+    "header_text": "ePunarChetana EMR LOGIN",
+    "title_text": "ePunarChetana",
     "showHeaderText": true,
     "showTitleText": true
   },
