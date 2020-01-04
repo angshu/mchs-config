@@ -50,7 +50,7 @@
                 "Observation & Diagnosis Form (Opthal)"
             ],
             "applyDateRangeFor": "obsDate",
-            "visitTypesToFilter": []
+            "visitTypesToFilter": [],
             "sortBy" : [{"column" : "SerialNumber", "sortOrder" : "desc"}]
         }
     },
