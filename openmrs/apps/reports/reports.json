@@ -26,7 +26,7 @@
             ]
         }
     },
-        "formdiagreportOph": {
+    "formdiagreportOph": {
         "name": "Ophthal Diagnosis Report",
         "type": "formBuilder",
         "config": {
@@ -46,7 +46,9 @@
                 "address3",
                 "city_village"
             ],
-            "formNamesToFilter": ["Observation & Diagnosis Form (Opthal)"]
+            "formNamesToFilter": [
+                "Observation & Diagnosis Form (Opthal)"
+            ],
             "applyDateRangeFor": "obsDate",
             "visitTypesToFilter": [
                 "PHARMACY VISIT",
