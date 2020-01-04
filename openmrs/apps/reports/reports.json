@@ -26,6 +26,34 @@
             ]
         }
     },
+        "formdiagreportOph": {
+        "name": "Ophthal Diagnosis Report",
+        "type": "formBuilder",
+        "config": {
+            "forDataAnalysis": true,
+            "patientAttributes": [
+                "Clinic",
+                "SerialNumber",
+                "education",
+                "occupation",
+                "primaryContact"
+            ],
+            "visitAttributes": [
+                "Visit Status",
+                "Admission Status"
+            ],
+            "patientAddresses": [
+                "address3",
+                "city_village"
+            ],
+            "formNamesToFilter": ["Observation & Diagnosis Form (Opthal)"]
+            "applyDateRangeFor": "obsDate",
+            "visitTypesToFilter": [
+                "PHARMACY VISIT",
+                "OPD"
+            ]
+        }
+    },
     "chiefComplaintReport": {
         "name": "Chief Complaint Report",
         "type": "obsCount",
