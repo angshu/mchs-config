@@ -51,6 +51,7 @@
             ],
             "applyDateRangeFor": "obsDate",
             "visitTypesToFilter": []
+            "sortBy" : [{"column" : "SerialNumber", "sortOrder" : "desc"}]
         }
     },
     "chiefComplaintReport": {
