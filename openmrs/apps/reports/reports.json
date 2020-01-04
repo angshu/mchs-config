@@ -50,10 +50,7 @@
                 "Observation & Diagnosis Form (Opthal)"
             ],
             "applyDateRangeFor": "obsDate",
-            "visitTypesToFilter": [
-                "PHARMACY VISIT",
-                "OPD"
-            ]
+            "visitTypesToFilter": []
         }
     },
     "chiefComplaintReport": {
