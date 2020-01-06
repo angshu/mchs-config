@@ -32,8 +32,6 @@
         "config": {
             "forDataAnalysis": true,
             "patientAttributes": [
-                "Clinic",
-                "SerialNumber",
                 "education",
                 "occupation",
                 "primaryContact"
@@ -51,7 +49,7 @@
             ],
             "applyDateRangeFor": "obsDate",
             "visitTypesToFilter": [],
-            "sortBy" : [{"column" : "SerialNumber", "sortOrder" : "desc"}]
+            "excludeColumns": [{"column" : "Patient Documents"}]
         }
     },
     "chiefComplaintReport": {
