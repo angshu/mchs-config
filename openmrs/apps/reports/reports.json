@@ -49,7 +49,7 @@
             ],
             "applyDateRangeFor": "obsDate",
             "visitTypesToFilter": [],
-            "excludeColumns": [{"column" : "Patient Documents"}]
+            "excludeColumns": ["Patient Documents"]
         }
     },
     "chiefComplaintReport": {
