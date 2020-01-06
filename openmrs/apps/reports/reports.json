@@ -26,6 +26,30 @@
             ]
         }
     },
+    "testdiag": {
+        "name": "TestDiagnosis",
+        "type": "formBuilder",
+        "config": {
+            "forDataAnalysis": true,
+            "patientAttributes": [
+                "education",
+                "occupation",
+                "primaryContact"
+            ],
+            "visitAttributes": [
+                "Visit Status",
+                "Admission Status"
+            ],
+            "patientAddresses": [
+                "address3",
+                "city_village"
+            ],
+            "formNamesToFilter": [
+                "Test Diagnosis"
+            ],
+            "applyDateRangeFor": "visitStopDate"
+        }
+    },
     "formdiagreportOph": {
         "name": "Ophthal Diagnosis Report",
         "type": "formBuilder",
