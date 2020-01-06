@@ -47,8 +47,7 @@
             "formNamesToFilter": [
                 "Observation & Diagnosis Form (Opthal)"
             ],
-            "applyDateRangeFor": "obsDate",
-            "visitTypesToFilter": [],
+            "applyDateRangeFor": "visitStopDate",
             "excludeColumns": ["Patient Documents"]
         }
     },
