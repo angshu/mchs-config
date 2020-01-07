@@ -50,29 +50,25 @@
             "applyDateRangeFor": "visitStopDate"
         }
     },
-    "formdiagreportOph": {
-        "name": "Ophthal Diagnosis Report",
+    "diagreportOph": {
+        "name": "Oph Diag Report",
         "type": "formBuilder",
         "config": {
             "forDataAnalysis": true,
             "patientAttributes": [
-                "education",
-                "occupation",
                 "primaryContact"
             ],
             "visitAttributes": [
                 "Visit Status",
-                "Admission Status"
             ],
             "patientAddresses": [
-                "address3",
                 "city_village"
             ],
             "formNamesToFilter": [
                 "Observation & Diagnosis Form (Opthal)"
             ],
             "applyDateRangeFor": "visitStopDate",
-            "excludeColumns": ["Patient Documents"]
+            "excludeColumns": ["Patient Documents", "Other Diagnosis", "Diagnosis Certainty", "Diagnosis Order"]
         }
     },
     "chiefComplaintReport": {
