@@ -68,7 +68,18 @@
                 "Observation & Diagnosis Form (Opthal)"
             ],
             "applyDateRangeFor": "visitStopDate",
-            "excludeColumns": ["Patient Documents", "Other Diagnosis", "Diagnosis Certainty", "Diagnosis Order"]
+            "excludeColumns": [
+                "Patient Documents",
+                "Other Diagnosis",
+                "Diagnosis Certainty",
+                "Diagnosis Order",
+                "Ophthal Symptoms",
+                "Ophthal Symptoms (other)",
+                "Laterality",
+                "Chief Complaint Duration",
+                "Duration of the Complaint",
+                "Diagnosis (Other)"
+            ]
         }
     },
     "chiefComplaintReport": {
